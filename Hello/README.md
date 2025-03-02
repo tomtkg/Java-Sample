@@ -27,9 +27,9 @@ gradle build
 gradle run
 ```
 
-## 4. Springboot
+## 4. Spring Boot
 ```Bash:
-cd 4_Springboot
+cd 4_Spring-Boot
 ./gradlew bootRun
 ```
 
