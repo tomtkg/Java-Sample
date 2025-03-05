@@ -1,5 +1,6 @@
-package com.example.demo;
+package com.example.demo.controller;
 
+import com.example.demo.service.HelloService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,7 +12,7 @@ public class ServiceHelloController {
 
     private final HelloService helloService;
 
-    // コンストラクタで HelloService を注入
+    // コンストラクタで HelloService を注入（依存性注入）
     public ServiceHelloController(HelloService helloService) {
         this.helloService = helloService;
     }
