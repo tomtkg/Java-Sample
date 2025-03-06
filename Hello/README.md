@@ -46,7 +46,7 @@ or
 cd 5_Web
 ./gradlew bootRun &
 curl http://localhost:8080/hello
-curl http://localhost:8080//hello?name=Amy
+curl http://localhost:8080/hello?name=Amy
 kill %1
 ```
 
